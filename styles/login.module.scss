@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    background-color: #115ea196;
+
+    .label {
+        margin-bottom: 5px;
+        color: #1f4b7d;
+    }
+
+    .input {
+        margin-bottom: 10px;
+        padding: 4px;
+        border: 1px solid #dddddd;
+        border-radius: 10px;
+        background-color: #dddddd;
+    }
+
+    .button {
+        margin-top: 10px;
+        padding: 7px 14px;
+        background-color: #dddddd;
+        color: rgb(32, 81, 127);
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: all 0.2s;
+        width: 60%;
+
+        &:hover {
+            background-color: #b6cee9;
+        }
+    }
+}

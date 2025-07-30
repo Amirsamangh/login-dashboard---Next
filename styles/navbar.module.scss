@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    background-color: #115ea1b3;
+    height: 50px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw;
+
+    .navbar_items {
+        margin-inline: 10px;
+        list-style: none;
+        transition: all 0.2s;
+        cursor: pointer;
+
+        &:hover {
+            color: aliceblue;
+        }
+    }
+}
